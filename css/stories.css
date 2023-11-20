@@ -1,0 +1,38 @@
+.stories {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 170px;
+}
+
+.stories .story {
+}
+
+.stories .story a {
+    text-decoration: none;
+    display: block;
+}
+
+.stories .story a .img {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.stories .story a .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stories .story a .title {
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}

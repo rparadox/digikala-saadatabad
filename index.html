@@ -1,0 +1,1195 @@
+<!doctype html>
+<!--suppress ALL -->
+<html lang="fa" dir="rtl" id="root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,  initial-scale=1.0, minimum-scale=1.0">
+    <title>فروشگاه دیجی کالا</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--    link swiper-->
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+    <!--link css-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<input type="radio" name="city" id="openCity">
+<input type="radio" name="city" id="closeCity">
+<header>
+    <div class="banner">
+        <img src="images/banner.webp">
+    </div>
+    <div class="menu1">
+        <div class="logo">
+            <img src="images/logo.svg">
+        </div>
+        <div class="search">
+            <form action="">
+                <label>
+                    <img src="images/digilogo-lg.svg">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var( --color-icon-low-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="searchSearch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                      d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                                      clip-rule="evenodd"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#A1A3A8">
+                            <path fill-rule="evenodd"
+                                  d="M10.5 18a7.5 7.5 0 115.973-2.963l4.369 4.246-1.394 1.434-4.387-4.263A7.467 7.467 0 0110.5 18zm5.5-7.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
+                                  clip-rule="evenodd"></path>
+                        </g>
+                    </svg>
+                    <input type="text" name="search" placeholder="جستجو">
+                </label>
+            </form>
+        </div>
+        <div class="buttons">
+            <a href="">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                     style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24" height="24">
+                    <defs>
+                        <symbol id="registerationSignIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                  d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                                  clip-rule="evenodd"></path>
+                        </symbol>
+                    </defs>
+                    <g fill="#424750">
+                        <path fill-rule="evenodd"
+                              d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                              clip-rule="evenodd"></path>
+                    </g>
+                </svg>
+                ورود| ثبت نام</a>
+            <span>|</span>
+            <a href="">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                     style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24" height="24">
+                    <defs>
+                        <symbol id="cartOff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                  d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                                  clip-rule="evenodd"></path>
+                        </symbol>
+                    </defs>
+                    <g fill="#424750">
+                        <path fill-rule="evenodd"
+                              d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                              clip-rule="evenodd"></path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="menu2">
+        <nav class="menu2__nav">
+            <ul class="menu2__list">
+                <li class="menu2__item">
+                    <a href="" class="menu2__link">دسته بندی کالاها</a>
+                    <div class="menu3">
+                        <nav class="menu3__nav">
+                            <ul class="menu3__list">
+                                <li class="menu3__item">
+                                    <a href="" class="menu3__link">مرحله دوم-1</a>
+                                    <div class="menu4">
+                                        <nav class="menu4__nav">
+                                            <ul class="menu4__list">
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-1</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-2</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-3</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-4</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-5</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-6</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-7</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-8</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-9</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-10</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-11</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-12</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-13</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-14</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-15</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-16</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-17</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-18</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-19</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-20</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-21</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-22</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-23</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-24</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-25</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-26</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-27</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-28</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-29</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-30</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-31</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-32</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-33</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-34</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-35</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-36</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-37</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-38</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-39</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-40</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-41</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-42</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-43</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-44</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-45</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-46</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-47</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-48</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-49</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-50</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-51</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-52</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-53</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-54</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-55</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-56</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-57</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-58</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-2</a>
+                                    <div class="menu4">
+                                        <nav class="menu4__nav">
+                                            <ul class="menu4__list">
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-1</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-2</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-3</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-4</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-5</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-6</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-7</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-8</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-9</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-10</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-11</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-12</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-13</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-14</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-15</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-16</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-17</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-18</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-19</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-20</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-21</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-22</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-23</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-24</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-25</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-26</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-27</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-28</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-29</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-30</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-31</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-32</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-33</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-34</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-35</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-36</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-37</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-38</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-39</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-40</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-41</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-42</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-43</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-44</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-45</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-46</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-47</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-48</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-49</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-50</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-51</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-52</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-53</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-54</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-55</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-56</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-57</a>
+                                                </li>
+                                                <li class="menu4__item"><a href="" class="menu4__link">مرحله 1-58</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-3</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-4</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-5</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-6</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-7</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-8</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-9</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-10</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-11</a></li>
+                                <li class="menu3__item"><a href="" class="menu3__link">مرحله دوم-12</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </li>
+                <li class="menu2__item"><a href="" class="menu2__link">شگفت انگیزها</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">سوپرمارکت</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">کارت هدیه</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">پرفروش ترین ها</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">تخفیف ها و پیشنهادات</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">سوالی دارید؟</a></li>
+                <li class="menu2__item"><a href="" class="menu2__link">در دیجی کالا بفروشید!</a></li>
+            </ul>
+        </nav>
+        <label for="openCity">
+            لطفا شهر خود را انتخاب کنید
+        </label>
+    </div>
+</header>
+<div class="cityCover">
+    <div class="city">
+        <div class="head">
+            <h2 class="title">انتخاب شهر</h2>
+            <label for="closeCity">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                     style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24" height="24">
+                    <defs>
+                        <symbol id="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                  d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                                  clip-rule="evenodd"></path>
+                        </symbol>
+                    </defs>
+                    <g fill="#424750">
+                        <path fill-rule="evenodd"
+                              d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                              clip-rule="evenodd"></path>
+                    </g>
+                </svg>
+            </label>
+        </div>
+        <nav class="city__nav">
+            <ul class="city__list">
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+                <li class="city__item"><a href="" class="city__link">
+                    استان-1
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                         style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);" width="24"
+                         height="24">
+                        <defs>
+                            <symbol id="chevronLeft" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                            </symbol>
+                        </defs>
+                        <g fill="#424750">
+                            <path d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"></path>
+                        </g>
+                    </svg>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<section class="stories">
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+    <div class="story">
+        <a href="">
+            <div class="img">
+                <img src="images/In-Story.Cover.bigPrize-1697360586.jpeg" alt="">
+            </div>
+            <span class="title">ارسال سریع</span>
+        </a>
+    </div>
+</section>
+<section class="slider1">
+    <div class="swiper mySwiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <img src="images/ss1.webp" alt="">
+                </a>
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<main>
+    <section class="services">
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+        <div class="service">
+            <a href="">
+                <div class="img">
+                    <img src="images/s1.png" alt="">
+                </div>
+                <span class="title">دیجی کالا جت</span>
+            </a>
+        </div>
+    </section>
+    <section class="slider2">
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/Amazings.svg" alt="">
+                        <img src="images/box.webp" alt="">
+                        <span class="title">مشاهده همه</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="img">
+                            <img src="images/mobile.webp" alt="">
+                        </div>
+                        <div class="price">
+                            <span class="p">۹,۷۹۹,۰۰۰</span>
+                            <span class="discount">۸%</span>
+                        </div>
+                        <s>۱۰,۷۰۰,۰۰۰</s>
+                    </a>
+                </div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="slider3">
+        <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+</main>
+<a href="#root" >boro bala</a>
+<!--js-->
+<script src="assets/swiper-bundle.min.js"></script>
+<script>
+    //slider1
+    const swiper1 = new Swiper(".mySwiper1", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+    document.querySelector(".slider1").addEventListener("mouseenter", function () {
+        document.querySelector(".swiper-button-next").classList.add("activeBtn");
+        document.querySelector(".swiper-button-prev").classList.add("activeBtn");
+    });
+    document.querySelector(".slider1").addEventListener("mouseleave", function () {
+        document.querySelector(".swiper-button-next").classList.remove("activeBtn");
+        document.querySelector(".swiper-button-prev").classList.remove("activeBtn");
+    });
+    //slider2
+    const swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 7,
+        spaceBetween: 2,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+    //slider3
+    const swiper3 = new Swiper(".mySwiper3", {
+        slidesPerView: 4,
+        grid: {
+            rows: 3,
+        },
+        spaceBetween: 0,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+</body>
+</html>

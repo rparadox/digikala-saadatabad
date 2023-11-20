@@ -1,0 +1,96 @@
+.slider2 {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 20px 2px;
+}
+
+.slider2 .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.slider2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider2 .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.slider2 .swiper-slide:first-of-type {
+    background-color: transparent;
+}
+
+.slider2 .swiper-slide:first-of-type img:first-of-type {
+    width: 92px;
+    height: 77px;
+}
+
+.slider2 .swiper-slide:first-of-type img:last-of-type {
+    width: 145px;
+    height: 115px;
+}
+
+.slider2 .swiper-slide:first-of-type .title {
+    color: white;
+}
+
+.slider2 .swiper-slide:nth-of-type(2) {
+    border-radius: 0 8px 8px 0;
+}
+
+.slider2 .swiper-slide:last-of-type {
+    border-radius: 8px 0 0 8px;
+}
+.slider2 .swiper-slide:not(:first-of-type) a .img{
+    width: 150px;
+    height: 150px;
+}
+.slider2 .swiper-slide:not(:first-of-type) a{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    gap: 20px;
+}
+.slider2 .swiper-slide:not(:first-of-type) a .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider2 .swiper-slide:not(:first-of-type) a .price{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider2 .swiper-slide:not(:first-of-type) a .price .p{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.slider2 .swiper-slide:not(:first-of-type) a .price .discount{
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    padding: 3px 6px;
+    border-radius: 8px;
+}
+.slider2 .swiper-slide:not(:first-of-type) a s{
+    align-self: flex-end;
+    color: rgb(192, 194, 197);
+    font-size: 12px;
+}
